@@ -38,7 +38,7 @@ const Home = () => {
                 }}
                 showsUserLocation
                 showsMyLocationButton
-
+                showsBuildings
             />
             <Visor location={location} upDate={getLocation} />
             <StatusBar style="auto" />
